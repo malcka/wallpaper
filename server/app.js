@@ -14,6 +14,7 @@ app.use(express.static(path.join(__dirname,"public")))
 images(app);
 users(app);
 connectToDB();
+
 // app.use("/images",images);
 // app.use("/users",users);
 

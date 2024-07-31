@@ -11,3 +11,4 @@ export async function connectToDB() {
     console.error("Failed to connectbhjbj,b to MongoDB", err);
   }
 }
+export default connectToDB;
